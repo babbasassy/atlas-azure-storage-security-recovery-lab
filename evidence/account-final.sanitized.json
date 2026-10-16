@@ -1,0 +1,54 @@
+{
+  "sku": {
+    "name": "Standard_LRS",
+    "tier": "Standard"
+  },
+  "kind": "StorageV2",
+  "name": "statlasrecovery261015",
+  "type": "Microsoft.Storage/storageAccounts",
+  "location": "northeurope",
+  "tags": {
+    "LabPurpose": "ATLAS-Storage-Recovery"
+  },
+  "properties": {
+    "publicNetworkAccess": "Enabled",
+    "defaultToOAuthAuthentication": false,
+    "allowCrossTenantReplication": false,
+    "privateEndpointConnections": [],
+    "minimumTlsVersion": "TLS1_2",
+    "allowBlobPublicAccess": false,
+    "allowSharedKeyAccess": true,
+    "supportsHttpsTrafficOnly": true,
+    "accessTier": "Hot",
+    "provisioningState": "Succeeded",
+    "creationTime": "2026-10-15T16:30:17.7698333Z",
+    "encryption": {
+      "requireInfrastructureEncryption": false,
+      "services": {
+        "file": {
+          "keyType": "Account",
+          "enabled": true,
+          "lastEnabledTime": "2026-10-15T16:30:18.0743286Z"
+        },
+        "blob": {
+          "keyType": "Account",
+          "enabled": true,
+          "lastEnabledTime": "2026-10-15T16:30:18.0743286Z"
+        }
+      },
+      "keySource": "Microsoft.Storage"
+    },
+    "networkAcls": {
+      "resourceAccessRules": [],
+      "bypass": "None",
+      "virtualNetworkRules": [],
+      "ipRules": [
+        {
+          "value": "REDACTED_CLIENT_IPV4",
+          "action": "Allow"
+        }
+      ],
+      "defaultAction": "Deny"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+ATLAS Storage Security and Recovery Lab
+Synthetic non-sensitive test data.
+Expected outcome: restore this exact content after a soft-delete operation.
+This file contains no credentials or personal data.

@@ -1,0 +1,26 @@
+{
+  "generatedAtUtc": "2026-10-16T02:44:44.613352+00:00",
+  "mode": "offline saved-configuration check; no Azure requests",
+  "configurationChecks": {
+    "standard_lrs": true,
+    "storage_v2": true,
+    "north_europe": true,
+    "https_required": true,
+    "tls_1_2": true,
+    "anonymous_blob_access_disabled": true,
+    "default_deny": true,
+    "no_service_bypass": true,
+    "single_redacted_client_rule": true,
+    "no_cross_tenant_replication": true,
+    "microsoft_managed_blob_encryption": true,
+    "no_private_endpoints": true
+  },
+  "mutationsDetected": {
+    "https_optional": true,
+    "anonymous_enabled": true,
+    "default_allow": true,
+    "bypass_added": true,
+    "extra_client": true
+  },
+  "passed": true
+}

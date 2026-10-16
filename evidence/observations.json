@@ -1,0 +1,56 @@
+{
+  "evidenceType": "author transcription of actual Azure portal observations",
+  "executionDatesUtc": [
+    "2026-10-15",
+    "2026-10-16"
+  ],
+  "firewallBeforeClientRule": {
+    "class": "actual_data_plane",
+    "httpStatus": 403
+  },
+  "firewallAfterClientRule": {
+    "class": "actual_data_plane",
+    "listingSucceeded": true,
+    "items": 0
+  },
+  "retention": {
+    "class": "portal_configuration",
+    "blobDays": 7,
+    "containerDays": 7
+  },
+  "containerRecovery": {
+    "class": "actual_container_operation",
+    "container": "recovery-test",
+    "states": [
+      "Active",
+      "Deleted",
+      "Active"
+    ],
+    "access": "Private",
+    "restoredLastModifiedUtc": "2026-10-16T02:36:03Z",
+    "payloadObjects": 0
+  },
+  "canary": {
+    "file": "atlas-recovery-canary.txt",
+    "bytes": 203,
+    "sha256": "c4d2fc44ac927f510d4454152ab6bef45e8875eecf7239f647e741ec825d439c",
+    "preparedAtUtc": "2026-10-15T11:40:23.8357745Z",
+    "uploaded": false,
+    "restored": false
+  },
+  "cleanup": {
+    "observedAt": "2026-10-16T02:41:23.671Z",
+    "resourceGroup": "rg-atlas-storage-20261015",
+    "notification": "Deleted resource group rg-atlas-storage-20261015",
+    "remainingOwnLabResources": 0
+  },
+  "notExecuted": [
+    "blob upload",
+    "blob download/hash comparison",
+    "blob recovery",
+    "anonymous HTTP request",
+    "TLS downgrade test",
+    "HTTP-only request",
+    "RBAC test"
+  ]
+}
