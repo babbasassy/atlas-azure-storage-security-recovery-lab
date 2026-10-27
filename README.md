@@ -34,6 +34,7 @@ flowchart LR
 - [Evidence provenance](docs/EVIDENCE.md): capture method, redaction policy and verification limits.
 - [Execution and reproduction notes](docs/RUNBOOK.md).
 - [Cost and cleanup record](docs/COST-AND-CLEANUP.md).
+- [26 October Azure closeout review](docs/FINAL-AZURE-REVIEW-20261026.md): all four owned lab groups absent, no subscription diagnostic exports. Existing Network Watcher preserved.
 
 Run the local configuration check with Python 3:
 
